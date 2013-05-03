@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>I Don't Give A Fuck</title>
+  <link rel="stylesheet" href="/static/css/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+  <div id="body">
+    <h1>I DON'T GIVE A FUCK</h1>
+    <form action="/" method="POST">
+      <h2>Step 1</h2>
+      <div class="step">
+        {% if name_not_provided %}
+        <p class="warning">Please provide your name</p>
+        {% endif %}
+        <p>Type in your name: <input type="text" name="name" placeholder="{{name}}"></p>
+      </div>
+      <h2>Step 2</h2>
+      <div class="step">
+        <p>Click <button>Generate</button></p>
+      </div>
+      <h2>Step 3</h2>
+      <div class="step">
+        <p>Reply that silly FB status with the generated link</p>
+        {% if url != null %}
+        <p><a class="generated" href={{url}}>{{url}}</a></p>
+        {% endif %}
+      </div>
+      <h2>That's it.</h2>
+    </form>
+    <div class="footer" id="topfooter">
+      <small>Copyright &copy; 2013 Derek</small>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1112 @@
+2013-05-02 20:35:55 =ERROR REPORT====
+GET / [idgaf] 404 0ms2013-05-02 20:47:57 =ERROR REPORT====
+GET /generate [idgaf] 404 5ms2013-05-02 20:48:55 =ERROR REPORT====
+GET /generate [idgaf] 404 20ms2013-05-02 20:57:29 =ERROR REPORT====
+{function_clause,[{idgaf_main_controller,generate,['GET',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.10784>,'GET',"/generate?name=Derek",{1,1},{9,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},{"accept-charset",{'Accept-Charset',"ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{'Accept-Language',"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},{"cookie",{'Cookie',"connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=5c0847e3f81344b5bb898ac33aca7989a9e2b500"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{'Referer',"http://localhost:8001/"},nil,nil},nil}}}]},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,7}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}2013-05-02 20:57:29 =ERROR REPORT====
+GET /generate [idgaf] 500 15ms2013-05-02 20:59:11 =ERROR REPORT====
+{function_clause,[{idgaf_main_controller,generate,['GET',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.10784>,'GET',"/generate?name=Derek",{1,1},{9,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},{"accept-charset",{'Accept-Charset',"ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{'Accept-Language',"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},{"cookie",{'Cookie',"connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=5c0847e3f81344b5bb898ac33aca7989a9e2b500"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{'Referer',"http://localhost:8001/"},nil,nil},nil}}}]},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,7}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}2013-05-02 20:59:12 =ERROR REPORT====
+GET /generate [idgaf] 500 3ms2013-05-02 21:00:37 =ERROR REPORT====
+{function_clause,[{idgaf_main_controller,generate,['GET',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.10784>,'GET',"/generate?name=Derek",{1,1},{9,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},{"accept-charset",{'Accept-Charset',"ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{'Accept-Language',"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},{"cookie",{'Cookie',"connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=5c0847e3f81344b5bb898ac33aca7989a9e2b500"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{'Referer',"http://localhost:8001/"},nil,nil},nil}}}]},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,7}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}2013-05-02 21:00:37 =ERROR REPORT====
+GET /generate [idgaf] 500 3ms2013-05-02 21:00:56 =ERROR REPORT====
+{function_clause,[{idgaf_main_controller,generate,['GET',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.10784>,'GET',"/generate?name=Derek",{1,1},{9,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},{"accept-charset",{'Accept-Charset',"ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{'Accept-Language',"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},{"cookie",{'Cookie',"connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=5c0847e3f81344b5bb898ac33aca7989a9e2b500"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{'Referer',"http://localhost:8001/"},nil,nil},nil}}}]},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,7}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}2013-05-02 21:00:56 =ERROR REPORT====
+GET /generate [idgaf] 500 9ms2013-05-02 21:01:14 =ERROR REPORT====
+{function_clause,[{idgaf_main_controller,generate,['GET',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.10784>,'GET',"/generate?name=Derek",{1,1},{10,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"cache-control",{'Cache-Control',"max-age=0"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},{"accept-charset",{'Accept-Charset',"ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{'Accept-Language',"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},nil},{"cookie",{'Cookie',"connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=5c0847e3f81344b5bb898ac33aca7989a9e2b500"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{'Referer',"http://localhost:8001/"},nil,nil},nil}}}]},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,7}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}2013-05-02 21:01:14 =ERROR REPORT====
+GET /generate [idgaf] 500 6ms2013-05-02 21:01:14 =ERROR REPORT====
+{function_clause,[{idgaf_main_controller,generate,['GET',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.10784>,'GET',"/generate?name=Derek",{1,1},{10,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"cache-control",{'Cache-Control',"max-age=0"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},{"accept-charset",{'Accept-Charset',"ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{'Accept-Language',"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},nil},{"cookie",{'Cookie',"connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=5c0847e3f81344b5bb898ac33aca7989a9e2b500"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{'Referer',"http://localhost:8001/"},nil,nil},nil}}}]},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,7}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}2013-05-02 21:01:14 =ERROR REPORT====
+GET /generate [idgaf] 500 2ms2013-05-02 21:01:15 =ERROR REPORT====
+{function_clause,[{idgaf_main_controller,generate,['GET',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochiweb_request,[#Port<0.10784>,'GET',"/generate?name=Derek",{1,1},{10,{"host",{'Host',"localhost:8001"},{"connection",{'Connection',"keep-alive"},{"cache-control",{'Cache-Control',"max-age=0"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{'Accept-Encoding',"gzip,deflate,sdch"},{"accept-charset",{'Accept-Charset',"ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{'Accept-Language',"en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},nil},{"cookie",{'Cookie',"connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=5c0847e3f81344b5bb898ac33aca7989a9e2b500"},nil,nil}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{'Referer',"http://localhost:8001/"},nil,nil},nil}}}]},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,7}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,94}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}2013-05-02 21:01:15 =ERROR REPORT====
+GET /generate [idgaf] 500 2ms2013-05-02 21:02:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.86.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,[[{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 21:10:52 =ERROR REPORT====
+GET /index [idgaf] 404 3ms2013-05-02 21:17:44 =ERROR REPORT====
+Error in process <0.421.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 21:17:44 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.421.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 21:17:44 =ERROR REPORT====
+Error in process <0.437.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 21:17:45 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.437.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 21:17:45 =ERROR REPORT====
+Error in process <0.438.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 21:17:45 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.438.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 21:17:45 =ERROR REPORT====
+Error in process <0.455.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 21:17:46 =ERROR REPORT====
+Error in process <0.457.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 21:17:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.457.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 21:17:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.455.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 21:41:55 =ERROR REPORT====
+{function_clause,[{boss_record_compiler,process_tokens,[[],[{eof,{4,1}},{dot,{2,22}},{')',{2,21}},{atom,{2,11},export_all},{'(',{2,10}},{atom,{2,2},compile},{'-',{2,1}},{dot,{1,24}},{')',{1,23}},{atom,{1,10},link_to_names},{'(',{1,9}},{atom,{1,2},module},{'-',{1,1}}],[]],[{file,"src/boss_record_compiler.erl"},{line,34}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,89}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,106}]},{boss_web_controller,load_and_execute,5,[{file,"src/boss/boss_web_controller.erl"},{line,734}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]}]}2013-05-02 21:41:56 =ERROR REPORT====
+POST / [idgaf] 500 16ms2013-05-02 21:42:26 =ERROR REPORT====
+{function_clause,[{boss_record_compiler,process_tokens,[[],[{eof,{4,1}},{dot,{2,22}},{')',{2,21}},{atom,{2,11},export_all},{'(',{2,10}},{atom,{2,2},compile},{'-',{2,1}},{dot,{1,24}},{')',{1,23}},{atom,{1,10},link_to_names},{'(',{1,9}},{atom,{1,2},module},{'-',{1,1}}],[]],[{file,"src/boss_record_compiler.erl"},{line,34}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,89}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,106}]},{boss_web_controller,load_and_execute,5,[{file,"src/boss/boss_web_controller.erl"},{line,734}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]}]}2013-05-02 21:42:26 =ERROR REPORT====
+POST / [idgaf] 500 9ms2013-05-02 21:42:27 =ERROR REPORT====
+{function_clause,[{boss_record_compiler,process_tokens,[[],[{eof,{4,1}},{dot,{2,22}},{')',{2,21}},{atom,{2,11},export_all},{'(',{2,10}},{atom,{2,2},compile},{'-',{2,1}},{dot,{1,24}},{')',{1,23}},{atom,{1,10},link_to_names},{'(',{1,9}},{atom,{1,2},module},{'-',{1,1}}],[]],[{file,"src/boss_record_compiler.erl"},{line,34}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,89}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,106}]},{boss_web_controller,load_and_execute,5,[{file,"src/boss/boss_web_controller.erl"},{line,734}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]}]}2013-05-02 21:42:27 =ERROR REPORT====
+POST / [idgaf] 500 7ms2013-05-02 21:42:33 =ERROR REPORT====
+{function_clause,[{boss_record_compiler,process_tokens,[[],[{eof,{4,1}},{dot,{2,22}},{')',{2,21}},{atom,{2,11},export_all},{'(',{2,10}},{atom,{2,2},compile},{'-',{2,1}},{dot,{1,24}},{')',{1,23}},{atom,{1,10},link_to_names},{'(',{1,9}},{atom,{1,2},module},{'-',{1,1}}],[]],[{file,"src/boss_record_compiler.erl"},{line,34}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,89}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,106}]},{boss_web_controller,load_and_execute,5,[{file,"src/boss/boss_web_controller.erl"},{line,734}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]}]}2013-05-02 21:42:33 =ERROR REPORT====
+POST / [idgaf] 500 7ms2013-05-02 21:42:34 =ERROR REPORT====
+{function_clause,[{boss_record_compiler,process_tokens,[[],[{eof,{4,1}},{dot,{2,22}},{')',{2,21}},{atom,{2,11},export_all},{'(',{2,10}},{atom,{2,2},compile},{'-',{2,1}},{dot,{1,24}},{')',{1,23}},{atom,{1,10},link_to_names},{'(',{1,9}},{atom,{1,2},module},{'-',{1,1}}],[]],[{file,"src/boss_record_compiler.erl"},{line,34}]},{boss_compiler,parse_text,4,[{file,"src/boss_compiler.erl"},{line,89}]},{boss_compiler,compile,2,[{file,"src/boss_compiler.erl"},{line,11}]},{boss_load,compile_and_accumulate_errors,5,[{file,"src/boss/boss_load.erl"},{line,146}]},{boss_load,load_dir,4,[{file,"src/boss/boss_load.erl"},{line,121}]},{boss_load,load_dirs1,6,[{file,"src/boss/boss_load.erl"},{line,106}]},{boss_web_controller,load_and_execute,5,[{file,"src/boss/boss_web_controller.erl"},{line,734}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]}]}2013-05-02 21:42:34 =ERROR REPORT====
+POST / [idgaf] 500 4ms2013-05-02 21:43:58 =ERROR REPORT====
+GET /doc/stylesheet.css [idgaf] 404 0ms2013-05-02 21:43:58 =ERROR REPORT====
+GET /doc/erlang.png [idgaf] 404 0ms2013-05-02 22:00:38 =ERROR REPORT====
+{badarg,[{erlang,apply,[[],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,38}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:00:38 =ERROR REPORT====
+GET /hdkbhofnls [idgaf] 500 2ms2013-05-02 22:02:53 =ERROR REPORT====
+{badarg,[{erlang,apply,[[],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,40}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:02:53 =ERROR REPORT====
+GET /hdkbhofnls [idgaf] 500 5ms2013-05-02 22:03:01 =ERROR REPORT====
+{badarg,[{erlang,apply,[[],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,40}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:03:02 =ERROR REPORT====
+GET /hdkbhofnls [idgaf] 500 4ms2013-05-02 22:03:27 =ERROR REPORT====
+{badarg,[{erlang,apply,[[],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,40}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:03:27 =ERROR REPORT====
+GET /hdkbhofnls [idgaf] 500 3ms2013-05-02 22:04:46 =ERROR REPORT====
+** Generic server <0.349.0> terminating 
+** Last message in was {route,"/hdkbhofnls"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],28697,32794,36891}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:04:46 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.349.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 176807
+  neighbours:
+2013-05-02 22:04:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.349.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:04:47 =ERROR REPORT====
+Error in process <0.888.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:04:47 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.888.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:04:47 =ERROR REPORT====
+** Generic server <0.891.0> terminating 
+** Last message in was {route,"/hdkbhofnls"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],118811,122906,127001}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:04:47 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.891.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1597
+    stack_size: 24
+    reductions: 3624
+  neighbours:
+2013-05-02 22:04:48 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.891.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:04:48 =ERROR REPORT====
+Error in process <0.893.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:04:48 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.893.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:04:57 =ERROR REPORT====
+** Generic server <0.896.0> terminating 
+** Last message in was {route,"/hdkbhofnls"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],131097,135194,139291}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:04:57 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.896.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2584
+    stack_size: 24
+    reductions: 6283
+  neighbours:
+2013-05-02 22:04:57 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.896.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:04:57 =ERROR REPORT====
+Error in process <0.898.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:04:57 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.898.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:04:58 =ERROR REPORT====
+** Generic server <0.904.0> terminating 
+** Last message in was {route,"/hdkbhofnls"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],143387,147482,151577}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:04:58 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.904.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1597
+    stack_size: 24
+    reductions: 3652
+  neighbours:
+2013-05-02 22:04:58 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,[]}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.904.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:04:58 =ERROR REPORT====
+Error in process <0.906.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:04:59 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.906.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:06:51 =ERROR REPORT====
+** Generic server <0.909.0> terminating 
+** Last message in was {route,"/hdkbhofnls"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],155673,159770,163867}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:06:52 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.909.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1597
+    stack_size: 24
+    reductions: 3625
+  neighbours:
+2013-05-02 22:06:52 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.909.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:06:52 =ERROR REPORT====
+Error in process <0.911.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:06:52 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.911.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:06:52 =ERROR REPORT====
+** Generic server <0.914.0> terminating 
+** Last message in was {route,"/hdkbhofnls"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],167963,172058,176153}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:06:53 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.914.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1597
+    stack_size: 24
+    reductions: 3641
+  neighbours:
+2013-05-02 22:06:53 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.914.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:06:53 =ERROR REPORT====
+Error in process <0.916.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:06:53 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.916.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:06:56 =ERROR REPORT====
+** Generic server <0.919.0> terminating 
+** Last message in was {route,"/hdkbhofnls"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],180249,184346,188443}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:06:56 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.919.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1597
+    stack_size: 24
+    reductions: 3625
+  neighbours:
+2013-05-02 22:06:56 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.919.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:06:57 =ERROR REPORT====
+Error in process <0.921.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:06:57 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.921.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:06:57 =ERROR REPORT====
+** Generic server <0.924.0> terminating 
+** Last message in was {route,"/hdkbhofnls"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],192539,196634,200729}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:06:57 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.924.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1597
+    stack_size: 24
+    reductions: 3653
+  neighbours:
+2013-05-02 22:06:58 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,"hdkbhofnls"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.924.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:06:58 =ERROR REPORT====
+Error in process <0.926.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:06:58 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.926.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:07:07 =ERROR REPORT====
+** Generic server <0.929.0> terminating 
+** Last message in was {route,"/gqasygtlyr"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],204825,208922,213019}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,"gqasygtlyr"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:07:07 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.929.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,"gqasygtlyr"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 9537
+  neighbours:
+2013-05-02 22:07:07 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,"gqasygtlyr"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.929.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:07:08 =ERROR REPORT====
+Error in process <0.933.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:07:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.933.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:07:08 =ERROR REPORT====
+** Generic server <0.945.0> terminating 
+** Last message in was {route,"/gqasygtlyr"}
+** When Server state == {state,idgaf,["idgaf_main_controller"],217115,221210,225305}
+** Reason for termination == 
+** {{badmatch,{[],[{page_id,"gqasygtlyr"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+2013-05-02 22:07:08 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.945.0>
+    registered_name: []
+    exception exit: {{{badmatch,{[],[{page_id,"gqasygtlyr"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.348.0>,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.348.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1597
+    stack_size: 24
+    reductions: 3653
+  neighbours:
+2013-05-02 22:07:09 =SUPERVISOR REPORT====
+     Supervisor: {<0.348.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{[],[{page_id,"gqasygtlyr"}]}},[{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,83}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,588}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+     Offender:   [{pid,<0.945.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,idgaf},{controllers,["idgaf_main_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2013-05-02 22:07:09 =ERROR REPORT====
+Error in process <0.947.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-02 22:07:09 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.947.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-02 22:21:05 =ERROR REPORT====
+GET /page/occbqytomh [idgaf] 404 0ms2013-05-02 22:21:22 =ERROR REPORT====
+{badarg,[{erlang,apply,[[{link_to_names,"link_to_names-12","occbqytomh",["Derek"]}],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,40}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:21:23 =ERROR REPORT====
+GET /main/page/occbqytomh [idgaf] 500 11ms2013-05-02 22:22:34 =ERROR REPORT====
+{badarg,[{erlang,apply,[[{link_to_names,"link_to_names-12","occbqytomh",["Derek"]}],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,40}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:22:34 =ERROR REPORT====
+GET /main/page/occbqytomh [idgaf] 500 16ms2013-05-02 22:22:35 =ERROR REPORT====
+{badarg,[{erlang,apply,[[{link_to_names,"link_to_names-12","occbqytomh",["Derek"]}],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,40}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:22:35 =ERROR REPORT====
+GET /main/page/occbqytomh [idgaf] 500 22ms2013-05-02 22:22:42 =ERROR REPORT====
+{badarg,[{erlang,apply,[[{link_to_names,"link_to_names-12","occbqytomh",["Derek"]}],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,40}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:22:42 =ERROR REPORT====
+GET /main/page/occbqytomh [idgaf] 500 10ms2013-05-02 22:23:01 =ERROR REPORT====
+{badarg,[{erlang,apply,[[{link_to_names,"link_to_names-13","asygtlyrhd",["adwwa"]},{link_to_names,"link_to_names-3","asygtlyrhd",["dawdwad"]}],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,40}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:23:02 =ERROR REPORT====
+GET /main/page/asygtlyrhd [idgaf] 500 24ms2013-05-02 22:23:41 =ERROR REPORT====
+{badarg,[{erlang,apply,[[{link_to_names,"link_to_names-13","asygtlyrhd",["adwwa"]},{link_to_names,"link_to_names-3","asygtlyrhd",["dawdwad"]}],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,41}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:23:41 =ERROR REPORT====
+GET /main/page/asygtlyrhd [idgaf] 500 4ms2013-05-02 22:26:18 =ERROR REPORT====
+{badarg,[{erlang,apply,[[{link_to_names,"link_to_names-13","asygtlyrhd",["adwwa"]},{link_to_names,"link_to_names-3","asygtlyrhd",["dawdwad"]}],names,[]],[]},{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,42}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-02 22:26:18 =ERROR REPORT====
+GET /main/page/asygtlyrhd [idgaf] 500 11ms2013-05-02 22:26:59 =ERROR REPORT====
+{{badmatch,["adwwa"]},[{idgaf_main_controller,page,3,[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,43}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}2013-05-02 22:26:59 =ERROR REPORT====
+GET /main/page/asygtlyrhd [idgaf] 500 15ms2013-05-03 01:57:11 =SUPERVISOR REPORT====
+     Supervisor: {<0.96.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,20},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 01:57:11 =ERROR REPORT====
+{shutdown,{gen_fsm,sync_send_event,[boss_db_pool,{checkout,true,5000},5000]}}2013-05-03 01:57:37 =ERROR REPORT====
+** Generic server <0.101.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"hdkbhofnls"}],all,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 01:57:37 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.101.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 242
+  neighbours:
+2013-05-03 01:57:37 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.101.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 01:57:38 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.101.0>,{find,link_to_names,[{link,equals,"hdkbhofnls"}],all,0,id,ascending,[]},30000]}}2013-05-03 01:57:38 =ERROR REPORT====
+POST / [idgaf] 500 17ms2013-05-03 01:59:39 =ERROR REPORT====
+** Generic server <0.102.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"asygtlyrhd"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 01:59:39 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.102.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 01:59:39 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.102.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 01:59:39 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.102.0>,{find,link_to_names,[{link,equals,"asygtlyrhd"}],1,0,id,ascending,[]},30000]}}2013-05-03 01:59:39 =ERROR REPORT====
+POST / [idgaf] 500 19ms2013-05-03 01:59:44 =ERROR REPORT====
+** Generic server <0.103.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"cuoccbqyto"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 01:59:44 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.103.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 01:59:44 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.103.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 01:59:45 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.103.0>,{find,link_to_names,[{link,equals,"cuoccbqyto"}],1,0,id,ascending,[]},30000]}}2013-05-03 01:59:45 =ERROR REPORT====
+POST / [idgaf] 500 11ms2013-05-03 02:00:31 =ERROR REPORT====
+** Generic server <0.104.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:00:32 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.104.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:00:32 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.104.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:00:32 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.104.0>,{find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:00:32 =ERROR REPORT====
+POST / [idgaf] 500 2ms2013-05-03 02:02:20 =ERROR REPORT====
+** Generic server <0.105.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:02:20 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.105.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:02:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.105.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:02:21 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.105.0>,{find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:02:21 =ERROR REPORT====
+POST / [idgaf] 500 3ms2013-05-03 02:03:25 =ERROR REPORT====
+** Generic server <0.382.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:03:25 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.382.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:03:25 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.382.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:03:25 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.382.0>,{find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:03:25 =ERROR REPORT====
+POST / [idgaf] 500 3ms2013-05-03 02:04:48 =ERROR REPORT====
+** Generic server <0.391.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:04:48 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.391.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:04:48 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.391.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:04:48 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.391.0>,{find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:04:48 =ERROR REPORT====
+POST / [idgaf] 500 7ms2013-05-03 02:04:50 =ERROR REPORT====
+** Generic server <0.394.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"gqasygtlyr"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:04:50 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.394.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:04:50 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.394.0>,{find,link_to_names,[{link,equals,"gqasygtlyr"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:04:51 =ERROR REPORT====
+POST / [idgaf] 500 2ms2013-05-03 02:04:51 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.394.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:06:08 =ERROR REPORT====
+** Generic server <0.403.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:06:08 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.403.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:06:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.403.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:06:09 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.403.0>,{find,link_to_names,[{link,equals,"hdkbhofnls"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:06:09 =ERROR REPORT====
+POST / [idgaf] 500 6ms2013-05-03 02:06:09 =ERROR REPORT====
+** Generic server <0.410.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"gqasygtlyr"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:06:10 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.410.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:06:10 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.410.0>,{find,link_to_names,[{link,equals,"gqasygtlyr"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:06:10 =ERROR REPORT====
+POST / [idgaf] 500 4ms2013-05-03 02:06:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.410.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:06:10 =ERROR REPORT====
+** Generic server <0.417.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"qytomhwoad"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:06:11 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.417.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 242
+  neighbours:
+2013-05-03 02:06:11 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.417.0>,{find,link_to_names,[{link,equals,"qytomhwoad"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:06:11 =ERROR REPORT====
+POST / [idgaf] 500 2ms2013-05-03 02:06:11 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.417.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:06:11 =ERROR REPORT====
+** Generic server <0.422.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"wwqqcuoccb"}],1,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:06:12 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.422.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 242
+  neighbours:
+2013-05-03 02:06:12 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.422.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:06:12 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.422.0>,{find,link_to_names,[{link,equals,"wwqqcuoccb"}],1,0,id,ascending,[]},30000]}}2013-05-03 02:06:12 =ERROR REPORT====
+POST / [idgaf] 500 1ms2013-05-03 02:06:45 =ERROR REPORT====
+** Generic server <0.424.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"asygtlyrhd"}],all,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:06:45 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.424.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:06:45 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.424.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:06:45 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.424.0>,{find,link_to_names,[{link,equals,"asygtlyrhd"}],all,0,id,ascending,[]},30000]}}2013-05-03 02:06:46 =ERROR REPORT====
+POST / [idgaf] 500 19ms2013-05-03 02:06:46 =ERROR REPORT====
+** Generic server <0.428.0> terminating 
+** Last message in was {find,link_to_names,[{link,equals,"cuoccbqyto"}],all,0,id,ascending,[]}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{no_exists,link_to_names,attributes}}
+2013-05-03 02:06:46 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.428.0>
+    registered_name: []
+    exception exit: {{aborted,{no_exists,link_to_names,attributes}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 234
+  neighbours:
+2013-05-03 02:06:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{no_exists,link_to_names,attributes}}
+     Offender:   [{pid,<0.428.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:06:47 =ERROR REPORT====
+{{aborted,{no_exists,link_to_names,attributes}},{gen_server,call,[<0.428.0>,{find,link_to_names,[{link,equals,"cuoccbqyto"}],all,0,id,ascending,[]},30000]}}2013-05-03 02:06:47 =ERROR REPORT====
+POST / [idgaf] 500 13ms2013-05-03 02:08:36 =ERROR REPORT====
+** Generic server <0.430.0> terminating 
+** Last message in was {save_record,{link_to_names,id,"hdkbhofnls",["Dere"]}}
+** When Server state == {state,boss_db_adapter_mnesia,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {aborted,{combine_error,'_ids_',update_counter}}
+2013-05-03 02:08:37 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.430.0>
+    registered_name: []
+    exception exit: {{aborted,{combine_error,'_ids_',update_counter}},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,747}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,227}]}]}
+    ancestors: [<0.100.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.64.0>]
+    messages: []
+    links: [<0.100.0>,<0.99.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 24
+    reductions: 221
+  neighbours:
+2013-05-03 02:08:37 =SUPERVISOR REPORT====
+     Supervisor: {<0.100.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {aborted,{combine_error,'_ids_',update_counter}}
+     Offender:   [{pid,<0.430.0>},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:08:37 =ERROR REPORT====
+{{aborted,{combine_error,'_ids_',update_counter}},{gen_server,call,[<0.430.0>,{save_record,{link_to_names,id,"hdkbhofnls",["Dere"]}},30000]}}2013-05-03 02:08:37 =ERROR REPORT====
+POST / [idgaf] 500 2ms2013-05-03 02:28:25 =ERROR REPORT====
+{{badmatch,{[],[{page_id,"mhwoadgqas"}]}},[{boss_web_controller,process_location,3,[{file,"src/boss/boss_web_controller.erl"},{line,898}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,924}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-03 02:28:25 =ERROR REPORT====
+GET / [idgaf] 500 15ms2013-05-03 02:29:10 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:29:11 =ERROR REPORT====
+GET / [idgaf] 500 8ms2013-05-03 02:30:19 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:30:19 =ERROR REPORT====
+GET / [idgaf] 500 29ms2013-05-03 02:30:32 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:30:32 =ERROR REPORT====
+GET / [idgaf] 500 21ms2013-05-03 02:31:49 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:31:49 =ERROR REPORT====
+GET / [idgaf] 500 10ms2013-05-03 02:31:53 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:31:53 =ERROR REPORT====
+GET / [idgaf] 500 13ms2013-05-03 02:32:14 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:32:14 =ERROR REPORT====
+GET / [idgaf] 500 8ms2013-05-03 02:32:17 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:32:17 =ERROR REPORT====
+GET / [idgaf] 500 16ms2013-05-03 02:33:51 =ERROR REPORT====
+{{badmatch,{[],[{page_id,"mhwoadgqas"}]}},[{boss_web_controller,process_location,3,[{file,"src/boss/boss_web_controller.erl"},{line,898}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,924}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-03 02:33:52 =ERROR REPORT====
+GET / [idgaf] 500 8ms2013-05-03 02:33:52 =ERROR REPORT====
+{{badmatch,{[],[{page_id,"mhwoadgqas"}]}},[{boss_web_controller,process_location,3,[{file,"src/boss/boss_web_controller.erl"},{line,898}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,924}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-03 02:33:52 =ERROR REPORT====
+GET / [idgaf] 500 4ms2013-05-03 02:34:38 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:34:38 =ERROR REPORT====
+GET / [idgaf] 500 21ms2013-05-03 02:34:42 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:34:42 =ERROR REPORT====
+GET / [idgaf] 500 12ms2013-05-03 02:34:43 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:34:43 =ERROR REPORT====
+GET / [idgaf] 500 9ms2013-05-03 02:34:44 =ERROR REPORT====
+{{badmatch,{[],[{page_id,"mhwoadgqas"}]}},[{boss_web_controller,process_location,3,[{file,"src/boss/boss_web_controller.erl"},{line,898}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,924}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-03 02:34:44 =ERROR REPORT====
+GET / [idgaf] 500 8ms2013-05-03 02:34:44 =ERROR REPORT====
+{{badmatch,{[],[{page_id,"mhwoadgqas"}]}},[{boss_web_controller,process_location,3,[{file,"src/boss/boss_web_controller.erl"},{line,898}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,924}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-03 02:34:44 =ERROR REPORT====
+GET / [idgaf] 500 2ms2013-05-03 02:34:45 =ERROR REPORT====
+{{badmatch,{[],[{page_id,"mhwoadgqas"}]}},[{boss_web_controller,process_location,3,[{file,"src/boss/boss_web_controller.erl"},{line,898}]},{boss_web_controller,process_action_result,5,[{file,"src/boss/boss_web_controller.erl"},{line,924}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]}]}2013-05-03 02:34:45 =ERROR REPORT====
+GET / [idgaf] 500 1ms2013-05-03 02:36:07 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:36:07 =ERROR REPORT====
+GET / [idgaf] 500 12ms2013-05-03 02:36:08 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:36:08 =ERROR REPORT====
+GET / [idgaf] 500 7ms2013-05-03 02:36:08 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:36:09 =ERROR REPORT====
+GET / [idgaf] 500 8ms2013-05-03 02:36:09 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:36:09 =ERROR REPORT====
+GET / [idgaf] 500 367ms2013-05-03 02:36:09 =ERROR REPORT====
+Error in process <0.474.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-03 02:36:09 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.474.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:36:10 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:36:10 =ERROR REPORT====
+GET / [idgaf] 500 614ms2013-05-03 02:36:10 =ERROR REPORT====
+Error in process <0.489.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-03 02:36:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.489.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:36:11 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:36:11 =ERROR REPORT====
+GET / [idgaf] 500 978ms2013-05-03 02:36:11 =ERROR REPORT====
+Error in process <0.488.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-03 02:36:11 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.488.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 02:36:12 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,863}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 02:36:12 =ERROR REPORT====
+GET / [idgaf] 500 1106ms2013-05-03 02:37:56 =ERROR REPORT====
+GET /page/ [idgaf] 404 2ms2013-05-03 03:17:46 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:17:46 =ERROR REPORT====
+GET /page [idgaf] 500 42ms2013-05-03 03:18:15 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:18:15 =ERROR REPORT====
+GET /page [idgaf] 500 25ms2013-05-03 03:18:15 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:18:16 =ERROR REPORT====
+GET /page [idgaf] 500 20ms2013-05-03 03:18:16 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:18:16 =ERROR REPORT====
+GET /page [idgaf] 500 220ms2013-05-03 03:19:09 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:09 =ERROR REPORT====
+GET /page [idgaf] 500 182ms2013-05-03 03:19:27 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:27 =ERROR REPORT====
+GET /page [idgaf] 500 26ms2013-05-03 03:19:28 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:28 =ERROR REPORT====
+GET /page [idgaf] 500 26ms2013-05-03 03:19:28 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:28 =ERROR REPORT====
+GET /page [idgaf] 500 17ms2013-05-03 03:19:29 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:29 =ERROR REPORT====
+GET /page [idgaf] 500 202ms2013-05-03 03:19:42 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:43 =ERROR REPORT====
+GET /page [idgaf] 500 19ms2013-05-03 03:19:43 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:43 =ERROR REPORT====
+GET /page [idgaf] 500 165ms2013-05-03 03:19:43 =ERROR REPORT====
+Error in process <0.928.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-03 03:19:43 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.928.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 03:19:44 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:44 =ERROR REPORT====
+GET /page [idgaf] 500 620ms2013-05-03 03:19:50 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:50 =ERROR REPORT====
+GET /page [idgaf] 500 26ms2013-05-03 03:19:50 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:50 =ERROR REPORT====
+GET /page [idgaf] 500 209ms2013-05-03 03:19:51 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.944.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 03:19:51 =ERROR REPORT====
+Error in process <0.944.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-03 03:19:51 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:19:51 =ERROR REPORT====
+GET /page [idgaf] 500 958ms2013-05-03 03:20:55 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:20:55 =ERROR REPORT====
+GET /page [idgaf] 500 40ms2013-05-03 03:20:55 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:20:55 =ERROR REPORT====
+GET /page [idgaf] 500 14ms2013-05-03 03:20:56 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:20:56 =ERROR REPORT====
+GET /page [idgaf] 500 358ms2013-05-03 03:20:56 =ERROR REPORT====
+Error in process <0.960.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-03 03:20:56 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.960.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 03:20:57 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:20:57 =ERROR REPORT====
+GET /page [idgaf] 500 685ms2013-05-03 03:20:57 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:20:57 =ERROR REPORT====
+GET /page [idgaf] 500 283ms2013-05-03 03:21:00 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:21:00 =ERROR REPORT====
+GET /page [idgaf] 500 50ms2013-05-03 03:21:00 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:21:00 =ERROR REPORT====
+GET /page [idgaf] 500 14ms2013-05-03 03:21:00 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:21:00 =ERROR REPORT====
+GET /page [idgaf] 500 22ms2013-05-03 03:21:37 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:21:37 =ERROR REPORT====
+GET /page [idgaf] 500 12ms2013-05-03 03:21:38 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:21:38 =ERROR REPORT====
+GET /page [idgaf] 500 13ms2013-05-03 03:22:44 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:22:44 =ERROR REPORT====
+GET /page [idgaf] 500 24ms2013-05-03 03:22:45 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:22:45 =ERROR REPORT====
+GET /page [idgaf] 500 26ms2013-05-03 03:22:45 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:22:46 =ERROR REPORT====
+GET /page [idgaf] 500 14ms2013-05-03 03:22:46 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:22:46 =ERROR REPORT====
+GET /page [idgaf] 500 137ms2013-05-03 03:23:21 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:23:21 =ERROR REPORT====
+GET /page [idgaf] 500 23ms2013-05-03 03:23:22 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:23:22 =ERROR REPORT====
+GET /page [idgaf] 500 129ms2013-05-03 03:23:22 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:23:22 =ERROR REPORT====
+GET /page [idgaf] 500 149ms2013-05-03 03:23:22 =ERROR REPORT====
+Error in process <0.1029.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value: {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+
+2013-05-03 03:23:23 =SUPERVISOR REPORT====
+     Supervisor: {<0.144.0>,ranch_conns_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,closed},[{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}
+     Offender:   [{pid,<0.1029.0>},{name,ranch_conns_sup},{mfargs,{ranch_conns_sup,start_protocol,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 03:23:23 =ERROR REPORT====
+{function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:23:23 =ERROR REPORT====
+GET /page [idgaf] 500 715ms2013-05-03 03:23:52 =ERROR REPORT====
+{function_clause,[{idgaf_main_controller,page,['POST',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochicow_request,#Port<0.13858>,'POST',"/page?id=tomhwoadgq",{1,1},{13,{"host",{"host","localhost:8001"},{"connection",{"connection","keep-alive"},{"cache-control",{"cache-control","max-age=0"},{"accept",{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{"accept-encoding","gzip,deflate,sdch"},{"accept-charset",{"accept-charset","ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{"accept-language","en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},nil},{"content-length",{"content-length","7"},nil,{"content-type",{"content-type","application/x-www-form-urlencoded"},nil,{"cookie",{"cookie","connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=4375a2646ac119f235ef7a12d0471e996efc5155"},nil,nil}}}},{"origin",{"origin","http://localhost:8001"},nil,{"user-agent",{"user-agent","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{"referer","http://localhost:8001/page?id=tomhwoadgq"},nil,nil},nil}}}},<<"name=ad">>},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,42}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}2013-05-03 03:23:52 =ERROR REPORT====
+POST /page [idgaf] 500 4ms

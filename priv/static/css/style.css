@@ -1,0 +1,43 @@
+h1 {
+	position:relative;
+	font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+	font-size:76px;
+	text-transform:uppercase;
+	text-align:center;
+	height:80px;
+	padding-top:30px;
+}
+
+h2 {
+	position:relative;
+	font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+	font-size:20px;
+	text-align:center;
+}
+
+a.generated {
+	font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+	font-size:20px
+}
+
+.step {
+	text-align:center;
+}
+
+.footer {
+	text-align:center;
+}
+
+.warning {
+	color: red;
+}
+
+.names {
+	font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+	font-size: 20px;
+}
+
+#body {
+	position: relative;
+	text-align: center;
+}
