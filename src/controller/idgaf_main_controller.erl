@@ -24,7 +24,7 @@ generate_random_string() ->
     end.
 
 index('GET', []) ->
-    {ok, []};
+    {ok, [{name_not_provided, false}]};
 
 index('POST', []) -> 
     Name = Req:post_param("name"),
