@@ -1051,3 +1051,93 @@
 2013-05-03 03:40:09.867 [info] <0.1153.0> GET / [idgaf] 200 13ms
 2013-05-03 03:40:12.980 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
 2013-05-03 03:40:12.988 [info] <0.1153.0> POST / [idgaf] 200 8ms
+2013-05-03 03:42:23.783 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 03:42:23.809 [info] <0.1165.0> GET / [idgaf] 200 26ms
+2013-05-03 03:42:25.898 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 03:42:25.906 [info] <0.1165.0> POST / [idgaf] 200 7ms
+2013-05-03 03:44:21.602 [error] <0.86.0> Supervisor poolboy_sup had child boss_db_controller started with boss_db_controller:start_link([{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},...]) at undefined exit with reason shutdown in context shutdown_error
+2013-05-03 03:44:21.762 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-05-03 03:44:39.284 [info] <0.6.0> Application lager started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 03:44:39.300 [info] <0.59.0> Starting Boss in production mode....
+
+2013-05-03 03:44:39.322 [info] <0.59.0> Starting master services on 'idgaf@derek-ThinkPad-T430s'
+
+2013-05-03 03:44:39.329 [info] <0.6.0> Application tinymq started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 03:44:39.337 [info] <0.59.0> SSL:[]
+
+2013-05-03 03:44:39.340 [info] <0.59.0> Starting cowboy... on 'idgaf@derek-ThinkPad-T430s'
+
+2013-05-03 03:44:39.344 [info] <0.6.0> Application ranch started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 03:44:39.352 [info] <0.6.0> Application cowboy started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 03:44:39.352 [info] <0.59.0> Starting http listener... on 8001 
+
+2013-05-03 03:44:39.359 [info] <0.6.0> Application boss started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 03:44:39.360 [info] <0.6.0> Application idgaf started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 03:44:39.363 [info] <0.343.0> Loading routes from "../idgaf/priv/idgaf.routes" ....
+2013-05-03 03:44:43.579 [info] <0.348.0> GET / [idgaf] 200 11ms
+2013-05-03 03:44:44.545 [info] <0.348.0> GET / [idgaf] 200 1ms
+2013-05-03 03:44:50.066 [error] <0.79.0> Supervisor poolboy_sup had child boss_db_controller started with boss_db_controller:start_link([{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},...]) at undefined exit with reason shutdown in context shutdown_error
+2013-05-03 03:44:50.235 [error] <0.89.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-05-03 04:18:03.858 [info] <0.6.0> Application lager started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:18:03.874 [info] <0.66.0> Starting Boss in development mode....
+
+2013-05-03 04:18:03.893 [info] <0.66.0> Starting master services on 'idgaf@derek-ThinkPad-T430s'
+
+2013-05-03 04:18:03.899 [info] <0.6.0> Application tinymq started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:18:03.910 [info] <0.66.0> SSL:[]
+
+2013-05-03 04:18:03.913 [info] <0.66.0> Starting cowboy... on 'idgaf@derek-ThinkPad-T430s'
+
+2013-05-03 04:18:03.918 [info] <0.6.0> Application ranch started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:18:03.926 [info] <0.6.0> Application cowboy started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:18:03.926 [info] <0.66.0> Starting http listener... on 8001 
+
+2013-05-03 04:18:03.939 [info] <0.6.0> Application boss started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:18:03.940 [info] <0.6.0> Application idgaf started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:18:03.946 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:18:12.774 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:18:12.791 [info] <0.356.0> GET / [idgaf] 200 16ms
+2013-05-03 04:18:16.049 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:18:16.064 [info] <0.356.0> POST / [idgaf] 200 15ms
+2013-05-03 04:18:20.485 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:18:20.499 [info] <0.356.0> GET /page [idgaf] 200 14ms
+2013-05-03 04:18:24.771 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:18:24.789 [info] <0.356.0> POST /page [idgaf] 200 17ms
+2013-05-03 04:21:34.022 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:21:34.035 [info] <0.373.0> GET /page [idgaf] 200 12ms
+2013-05-03 04:21:35.266 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:21:35.281 [info] <0.373.0> GET /page [idgaf] 200 15ms
+2013-05-03 04:21:39.049 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:21:39.056 [info] <0.373.0> GET / [idgaf] 200 6ms
+2013-05-03 04:22:08.443 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:22:08.444 [info] <0.388.0> GET /page [idgaf] 302 1ms
+2013-05-03 04:22:08.448 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:22:08.460 [info] <0.388.0> GET / [idgaf] 200 12ms
+2013-05-03 04:22:13.940 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:22:13.946 [info] <0.394.0> POST / [idgaf] 200 6ms
+2013-05-03 04:22:14.706 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:22:14.718 [info] <0.394.0> GET /page [idgaf] 200 14ms
+2013-05-03 04:22:21.672 [info] <0.349.0> Loading routes from "/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/priv/idgaf.routes" ....
+2013-05-03 04:22:21.681 [info] <0.394.0> GET / [idgaf] 200 9ms
+2013-05-03 04:34:16.035 [error] <0.86.0> Supervisor poolboy_sup had child boss_db_controller started with boss_db_controller:start_link([{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},...]) at undefined exit with reason shutdown in context shutdown_error
+2013-05-03 04:34:16.196 [error] <0.96.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error
+2013-05-03 04:34:24.972 [info] <0.6.0> Application lager started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:34:24.978 [info] <0.59.0> Starting Boss in production mode....
+
+2013-05-03 04:34:24.993 [info] <0.59.0> Starting master services on 'idgaf@derek-ThinkPad-T430s'
+
+2013-05-03 04:34:24.997 [info] <0.6.0> Application tinymq started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:34:25.008 [info] <0.59.0> SSL:[]
+
+2013-05-03 04:34:25.009 [info] <0.59.0> Starting cowboy... on 'idgaf@derek-ThinkPad-T430s'
+
+2013-05-03 04:34:25.013 [info] <0.6.0> Application ranch started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:34:25.026 [info] <0.6.0> Application cowboy started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:34:25.026 [info] <0.59.0> Starting http listener... on 8001 
+
+2013-05-03 04:34:25.037 [info] <0.6.0> Application boss started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:34:25.037 [info] <0.6.0> Application idgaf started on node 'idgaf@derek-ThinkPad-T430s'
+2013-05-03 04:34:25.041 [info] <0.343.0> Loading routes from "../idgaf/priv/idgaf.routes" ....
+2013-05-03 04:34:32.165 [info] <0.348.0> GET / [idgaf] 200 8ms
+2013-05-03 04:34:38.375 [error] <0.79.0> Supervisor poolboy_sup had child boss_db_controller started with boss_db_controller:start_link([{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},...]) at undefined exit with reason shutdown in context shutdown_error
+2013-05-03 04:34:38.525 [error] <0.89.0> Supervisor poolboy_sup had child boss_session_controller started with boss_session_controller:start_link([{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,...}]) at undefined exit with reason shutdown in context shutdown_error

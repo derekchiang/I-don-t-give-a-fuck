@@ -3,7 +3,13 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="description" content="{% if names|length == 1 %}{% for n in names %}{{n}}{% endfor %} doesn't give a fuck.{% elif names|length == 2 %}{% for n in names %}{% if forloop.last %}and {{n}}{% else %}{{n}} {% endif %}{% endfor %} don't give a fuck.{% else %}{% for n in names %}{% if forloop.last %}and {{n}}{% else %}{{n}}, {% endif %}{% endfor %} don't give a fuck.{% endif %}" />
-  <title>{{names|length}} People Don't Give A Fuck</title>
+  <title>
+    {% if names|length == 1 %}
+    {{names|length}} Person Doesn't Give A Fuck
+    {% else %}
+    {{names|length}} People Don't Give A Fuck
+    {% endif %}
+  </title>
   <link rel="stylesheet" href="/static/css/style.css" type="text/css" media="screen" charset="utf-8">
 </head>
 <body>

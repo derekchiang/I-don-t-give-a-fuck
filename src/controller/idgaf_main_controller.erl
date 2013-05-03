@@ -24,13 +24,13 @@ generate_random_string() ->
     end.
 
 index('GET', []) ->
-    {ok, [{name_not_provided, 0}]};
+    {ok, []};
 
 index('POST', []) -> 
     Name = Req:post_param("name"),
     if
         (Name =:= undefined) or (Name =:= "") ->
-            {ok, [{name_not_provided, 1}]};
+            {ok, [{name_not_provided, true}]};
         true ->
             RanString = generate_random_string(),
             Url = ?SITE_URL ++ "page?id=" ++ RanString,

@@ -11,7 +11,7 @@
     <form action="/" method="POST">
       <h2>Step 1</h2>
       <div class="step">
-        {% if name_not_provided == 1 %}
+        {% if name_not_provided %}
         <p class="warning">Please provide your name</p>
         {% endif %}
         <p>Type in your name: <input type="text" name="name" placeholder="{{name}}"></p>

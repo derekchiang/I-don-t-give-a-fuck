@@ -1109,4 +1109,51 @@ Error in process <0.1029.0> on node 'idgaf@derek-ThinkPad-T430s' with exit value
 {function_clause,[{erlydtl_filters,length,[undefined],[{file,"src/erlydtl_filters.erl"},{line,414}]},{idgaf_view_main_page_html,render_internal,2,[]},{idgaf_view_main_page_html,render,2,[]},{boss_web_controller,render_view,6,[{file,"src/boss/boss_web_controller.erl"},{line,998}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,861}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]}]}2013-05-03 03:23:23 =ERROR REPORT====
 GET /page [idgaf] 500 715ms2013-05-03 03:23:52 =ERROR REPORT====
 {function_clause,[{idgaf_main_controller,page,['POST',[],{idgaf_main_controller,{simple_bridge_request_wrapper,mochiweb_request_bridge,{mochicow_request,#Port<0.13858>,'POST',"/page?id=tomhwoadgq",{1,1},{13,{"host",{"host","localhost:8001"},{"connection",{"connection","keep-alive"},{"cache-control",{"cache-control","max-age=0"},{"accept",{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-encoding",{"accept-encoding","gzip,deflate,sdch"},{"accept-charset",{"accept-charset","ISO-8859-1,utf-8;q=0.7,*;q=0.3"},nil,nil},{"accept-language",{"accept-language","en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"},nil,nil}}},nil},{"content-length",{"content-length","7"},nil,{"content-type",{"content-type","application/x-www-form-urlencoded"},nil,{"cookie",{"cookie","connect.sid=868vdwiek3dSLflhLfkPkC5D.IkNfqZi1QWKWNOrWs5t4gDhNLUc3YGEtq%2BpVG371j78; splashShown1.6=1; csrftoken=EINd0I0lprzneeXSCOPY7ooTU359dmCV; _boss_session=4375a2646ac119f235ef7a12d0471e996efc5155"},nil,nil}}}},{"origin",{"origin","http://localhost:8001"},nil,{"user-agent",{"user-agent","Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31"},{"referer",{"referer","http://localhost:8001/page?id=tomhwoadgq"},nil,nil},nil}}}},<<"name=ad">>},false,[],[],none}}],[{file,"/media/Work_Study/CS/workspace/ChicagoBoss/idgaf/src/controller/idgaf_main_controller.erl"},{line,42}]},{boss_web_controller,execute_action,5,[{file,"src/boss/boss_web_controller.erl"},{line,836}]},{boss_web_controller,process_dynamic_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,543}]},{boss_web_controller,process_request,5,[{file,"src/boss/boss_web_controller.erl"},{line,532}]},{timer,tc,3,[{file,"timer.erl"},{line,194}]},{boss_web_controller,build_dynamic_response,4,[{file,"src/boss/boss_web_controller.erl"},{line,462}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,514}]}]}2013-05-03 03:23:52 =ERROR REPORT====
-POST /page [idgaf] 500 4ms
+POST /page [idgaf] 500 4ms2013-05-03 03:44:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.86.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,[[{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 03:44:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.96.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,20},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 03:44:50 =SUPERVISOR REPORT====
+     Supervisor: {<0.79.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,[[{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 03:44:50 =SUPERVISOR REPORT====
+     Supervisor: {<0.89.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,20},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 04:34:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.86.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,[[{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 04:34:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.96.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,20},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 04:34:38 =SUPERVISOR REPORT====
+     Supervisor: {<0.79.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,boss_db_controller},{mfargs,{boss_db_controller,start_link,[[{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2013-05-03 04:34:38 =SUPERVISOR REPORT====
+     Supervisor: {<0.89.0>,poolboy_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,20},{name,boss_session_controller},{mfargs,{boss_session_controller,start_link,[[{size,20},{max_overflow,40},{adapter,boss_session_adapter_mock},{session_exp_time,525600},{session_key,"_boss_session"}]]}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
